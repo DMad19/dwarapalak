@@ -1,0 +1,82 @@
+# ----------------------------
+# Maven / Build artifacts (multi-module)
+# ----------------------------
+**/target/
+**/out/
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+
+# ----------------------------
+# IDE / Editor files
+# ----------------------------
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VSCode
+.vscode/
+
+# ----------------------------
+# OS Files
+# ----------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Logs
+# ----------------------------
+*.log
+logs/
+
+# ----------------------------
+# Docker / Environment files
+# ----------------------------
+docker/*.env
+*.env
+.env.*
+
+# ----------------------------
+# Spring Boot config
+# Ignore real configs, keep example templates
+# ----------------------------
+/application*.yml
+/application*.properties
+!/application.yml.example
+!/application-dev.yml.example
+!/application-prod.yml.example
+!/application.properties.example
+!/application-dev.properties.example
+!/application-prod.properties.example
+
+# ----------------------------
+# NodeJS / JS SDK
+# ----------------------------
+**/node_modules/
+**/dist/
+npm-debug.log*
+yarn-error.log*
+
+# ----------------------------
+# Maven Wrapper
+# ----------------------------
+# Keep the wrapper files
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+.mvn/tmp/
+
+# ----------------------------
+# Misc
+# ----------------------------
+# Backup / temp files
+*~
+*.swp
+*.bak
